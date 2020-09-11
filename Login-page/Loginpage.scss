@@ -4,3 +4,31 @@ $texctcolor:#657786;
 $brdacolor:#657786;
 $btncolor:#8ED0F9;
 $fgtpasswd:#1BA2E8;
+
+.container{
+    
+    #icn{
+        color: $maincolor;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    p{
+        font-size: 23px;
+    }
+    
+    label{
+        font-size: 15px;
+        color: $texctcolor;
+    }
+
+   .dig{
+       border-bottom: 2px solid $brdacolor;
+       background-color: $inputcolor;
+
+       input{
+           background-color: $inputcolor;
+       }
+   }
+}

@@ -1,3 +1,17 @@
-
+.container #icn {
+  color: #1DA1F2;
+  font-size: 40px;
+  display: flex;
+  justify-content: center; }
+.container p {
+  font-size: 23px; }
+.container label {
+  font-size: 15px;
+  color: #657786; }
+.container .dig {
+  border-bottom: 2px solid #657786;
+  background-color: #F5F8FA; }
+  .container .dig input {
+    background-color: #F5F8FA; }
 
 /*# sourceMappingURL=Loginpage.css.map */

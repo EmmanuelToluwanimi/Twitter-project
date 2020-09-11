@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AASI,eAAI;EACA,KAAK,EAVF,OAAO;EAWV,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;AAG3B,YAAC;EACG,SAAS,EAAE,IAAI;AAGnB,gBAAK;EACD,SAAS,EAAE,IAAI;EACf,KAAK,EApBD,OAAO;AAuBhB,eAAI;EACA,aAAa,EAAE,iBAAoB;EACnC,gBAAgB,EA1BX,OAAO;EA4BZ,qBAAK;IACD,gBAAgB,EA7Bf,OAAO",
+"sources": ["Loginpage.scss"],
 "names": [],
 "file": "Loginpage.css"
 }
