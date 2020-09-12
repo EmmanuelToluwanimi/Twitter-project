@@ -1,17 +1,31 @@
-.container #icn {
-  color: #1DA1F2;
-  font-size: 40px;
-  display: flex;
-  justify-content: center; }
-.container p {
-  font-size: 23px; }
-.container label {
-  font-size: 15px;
-  color: #657786; }
-.container .dig {
-  border-bottom: 2px solid #657786;
-  background-color: #F5F8FA; }
-  .container .dig input {
+.container {
+  margin-top: 20px;
+  width: 42vw; }
+  .container #icn {
+    color: #1DA1F2;
+    font-size: 35px;
+    display: flex;
+    justify-content: center; }
+  .container p {
+    font-size: 23px;
+    margin-top: 30px; }
+  .container label {
+    font-size: 15px;
+    color: #657786; }
+  .container .dig {
+    border-bottom: 2px solid #657786;
     background-color: #F5F8FA; }
+    .container .dig input {
+      background-color: #F5F8FA;
+      margin-top: -11px; }
+  .container .dig:focus {
+    border-bottom: 2px solid #1DA1F2; }
+    .container .dig:focus label {
+      color: #1DA1F2; }
+  .container .btn {
+    width: 100%;
+    background-color: #8ED0F9;
+    color: white;
+    border-radius: 10vw; }
 
 /*# sourceMappingURL=Loginpage.css.map */

@@ -6,16 +6,19 @@ $btncolor:#8ED0F9;
 $fgtpasswd:#1BA2E8;
 
 .container{
-    
+    margin-top: 20px;
+    width: 42vw;
+
     #icn{
         color: $maincolor;
-        font-size: 40px;
+        font-size: 35px;
         display: flex;
         justify-content: center;
     }
     
     p{
         font-size: 23px;
+        margin-top: 30px;
     }
     
     label{
@@ -29,6 +32,21 @@ $fgtpasswd:#1BA2E8;
 
        input{
            background-color: $inputcolor;
+           margin-top: -11px;
        }
+   }
+
+   .dig:focus{
+       label{
+           color: $maincolor;
+       }
+       border-bottom: 2px solid $maincolor;
+   }
+
+   .btn{
+       width: 100%;
+       background-color: $btncolor;
+       color: white;
+       border-radius: 10vw;
    }
 }
