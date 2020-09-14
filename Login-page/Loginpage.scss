@@ -49,4 +49,20 @@ $fgtpasswd:#1BA2E8;
        color: white;
        border-radius: 10vw;
    }
+
+   .dob{
+       font-size: 15px;
+       #inf{
+           color: $texctcolor;
+       }
+   }
+   .btnn{
+    width: 5vw; 
+    border-radius: 30px;
+    background-color: $btncolor;
+    color: white;
+   }
+   .btnn:hover{
+       background-color: $maincolor;
+   }
 }

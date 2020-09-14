@@ -27,5 +27,16 @@
     background-color: #8ED0F9;
     color: white;
     border-radius: 10vw; }
+  .container .dob {
+    font-size: 15px; }
+    .container .dob #inf {
+      color: #657786; }
+  .container .btnn {
+    width: 5vw;
+    border-radius: 30px;
+    background-color: #8ED0F9;
+    color: white; }
+  .container .btnn:hover {
+    background-color: #1DA1F2; }
 
 /*# sourceMappingURL=Loginpage.css.map */

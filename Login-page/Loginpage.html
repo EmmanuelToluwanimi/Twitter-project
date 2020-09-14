@@ -44,10 +44,59 @@
         </form>
 
         <span class="d-flex justify-content-center">
-        <a href="../Forgot-password/Forgotpassword.html">Forgot passsword?</a>
-        <span id="dot" class="mx-1">·</span>
-        <a href="">Sign up for Twitter</a>
+            <a href="../Forgot-password/Forgotpassword.html">Forgot passsword?</a>
+            <span id="dot" class="mx-1">·</span>
+            <a href="" data-toggle="modal" data-target="#myModal">Sign up for Twitter</a>
         </span>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header d-flex align-items-center p-3">
+                        <span class="fab fa-twitter mx-auto" id="icn"></span>
+                        <input type="button" class="btnn border-0 p-1"
+                            value="Next">
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h4>Create your account</h4>
+                        <form>
+                            <div class="dig form-group rounded mb-4">
+                                <label for="name" class="ml-2">Name</label><br>
+                                <input type="text" class="form-control border-0" id="name">
+                            </div>
+
+                            <div class="dig form-group rounded mb-4">
+                                <label for="Phone" class="ml-2">Phone</label><br>
+                                <input type="number" class="form-control border-0" id="Phone">
+                            </div>
+
+                            <span>
+                                <a href="" style="font-size: 15px;">Use email instead</a>
+                            </span>
+
+                            <p class="dob">
+                                <span><b>Date of birth</b></span><br>
+                                <span id="inf">
+                                    This will not be shown publicly. Confirm your own age, 
+                                    even if this account is for a business, a pet, or something else.
+                                </span>
+                            </p>
+                        </form>
+                    </div>
+
+                    <!-- Modal footer
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
 
     </div>
 
