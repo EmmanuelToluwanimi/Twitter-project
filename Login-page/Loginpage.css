@@ -18,6 +18,9 @@
     .container .dig input {
       background-color: #F5F8FA;
       margin-top: -11px; }
+    .container .dig select {
+      background-color: #F5F8FA;
+      margin-top: -11px; }
   .container .dig:focus {
     border-bottom: 2px solid #1DA1F2; }
     .container .dig:focus label {
