@@ -9,3 +9,48 @@ $ltextcolor:#9AA5AF;
 $header:19px;
 $normaltxt:15px;
 $lightext:13px;
+
+.sidenav{
+    color: black;
+    font-size: $header;
+    height: 100%;
+    .sdnav{
+        font-weight: 500;
+        margin-left: 10%;
+        .twt{
+            color: $maincolor;
+            font-size: 30px;
+        }
+       
+    }
+    .sdnav:hover{
+        .kik{
+            background-color: $sidenavhovercolor;
+            color: $maincolor;
+        }
+        .twt:hover{
+            background-color: white;
+        }
+    }
+
+    .kik{
+        color: black;
+        text-decoration: none;
+        border-radius: 30px;
+    }
+
+    i{
+        font-size: 25px;
+    }
+    #finh{
+        background-color:$sdnavbtncolor;
+        text-align: center;
+        border-radius: 30px;
+        font-size: $normaltxt;
+        margin-bottom: 100px;
+    }
+    #sdbtn{
+        color: white;
+        border-radius: 0px;
+    }
+}
