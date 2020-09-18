@@ -11,8 +11,6 @@
   .sidenav .sdnav:hover .kik {
     background-color: #E8F5FE;
     color: #1DA1F2; }
-  .sidenav .sdnav:hover .twt:hover {
-    background-color: white; }
   .sidenav .kik {
     color: black;
     text-decoration: none;
@@ -28,5 +26,25 @@
   .sidenav #sdbtn {
     color: white;
     border-radius: 0px; }
+
+#star {
+  width: 25px;
+  height: 25px; }
+
+.bgg {
+  font-size: 19px;
+  font-weight: 700; }
+
+#prfp {
+  width: 60px;
+  height: 60px; }
+
+#tpicn {
+  font-size: 23px; }
+
+#twtbtn {
+  background-color: #8ED0F9;
+  border-radius: 30px;
+  color: white; }
 
 /*# sourceMappingURL=Homepage.css.map */

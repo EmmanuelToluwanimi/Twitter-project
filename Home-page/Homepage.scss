@@ -10,6 +10,7 @@ $header:19px;
 $normaltxt:15px;
 $lightext:13px;
 
+// sidenav
 .sidenav{
     color: black;
     font-size: $header;
@@ -27,9 +28,6 @@ $lightext:13px;
         .kik{
             background-color: $sidenavhovercolor;
             color: $maincolor;
-        }
-        .twt:hover{
-            background-color: white;
         }
     }
 
@@ -53,4 +51,26 @@ $lightext:13px;
         color: white;
         border-radius: 0px;
     }
+}
+
+// mainbody
+#star{
+    width: 25px;
+    height: 25px;
+}
+.bgg{
+    font-size: $header;
+    font-weight: 700;
+}
+#prfp{
+    width: 60px;
+    height: 60px;
+}
+#tpicn{
+    font-size: 23px;
+}
+#twtbtn{
+    background-color: $mainbtncolor;
+    border-radius: 30px;
+    color: white;
 }
