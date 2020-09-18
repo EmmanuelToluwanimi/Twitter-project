@@ -47,4 +47,22 @@
   border-radius: 30px;
   color: white; }
 
+.rytinput {
+  border-radius: 30px;
+  background-color: #E6ECF0; }
+
+.card {
+  background-color: #F5F8FA; }
+  .card .card-header {
+    font-size: 19px; }
+    .card .card-header .headertitle {
+      font-weight: 700; }
+    .card .card-header a {
+      text-decoration: none; }
+  .card .card-body .sasuke .itachi {
+    font-size: 13px; }
+  .card .card-body .sasuke .higa {
+    font-weight: 700;
+    font-size: 15px; }
+
 /*# sourceMappingURL=Homepage.css.map */

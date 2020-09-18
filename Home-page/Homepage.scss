@@ -74,3 +74,31 @@ $lightext:13px;
     border-radius: 30px;
     color: white;
 }
+.rytinput{
+    border-radius: 30px;
+    background-color: #E6ECF0;
+}
+.card{
+    background-color: #F5F8FA;
+    .card-header{
+        font-size: $header;
+        
+        .headertitle{
+            font-weight: 700;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    .card-body{
+        .sasuke{
+            .itachi{
+                font-size: $lightext;
+            }
+            .higa{
+                font-weight: 700;
+                font-size: $normaltxt;
+            }
+        }
+    }
+}
