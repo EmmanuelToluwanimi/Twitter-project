@@ -54,15 +54,31 @@
 .card {
   background-color: #F5F8FA; }
   .card .card-header {
-    font-size: 19px; }
+    font-size: 19px;
+    background-color: #F5F8FA; }
     .card .card-header .headertitle {
       font-weight: 700; }
     .card .card-header a {
       text-decoration: none; }
+  .card .card-body .fila {
+    text-decoration: none;
+    color: black; }
   .card .card-body .sasuke .itachi {
     font-size: 13px; }
   .card .card-body .sasuke .higa {
     font-weight: 700;
     font-size: 15px; }
+  .card .card-body .sasuke:hover {
+    background-color: #E6ECF0; }
+  .card .imago {
+    width: 50px;
+    height: 50px; }
+  .card .bito {
+    border-radius: 30px;
+    border-color: #1DA1F2;
+    color: #1DA1F2; }
+
+.bado {
+  font-size: 13px; }
 
 /*# sourceMappingURL=Homepage.css.map */
