@@ -78,6 +78,55 @@ $lightext:13px;
     border-radius: 30px;
     background-color: #E6ECF0;
 }
+.tweet{
+    .itachi{
+        font-size: $lightext;
+    }
+    .higa{
+        font-weight: 700;
+        font-size: $normaltxt;
+    }
+    .twitpix{
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+}
+.tweet:hover{
+    background-color: #F5F8FA;
+}
+.imago{
+    width: 50px;
+    height: 50px;
+}
+.bodicn:hover{
+   .icno{
+    background-color: rgb(216, 216, 228);
+    color: blue;
+   }
+   .spn1{
+       color: blue;
+   }
+   .icnu{
+    background-color: #E6ECF0;
+    color: green;
+   }
+   .spn2{
+       color: green;
+   }
+   .icni{
+    background-color: #E6ECF0;
+    color: red;
+   }
+   .spn3{
+       color: red;
+   }
+   .icnn{
+       color: rgb(106, 106, 173);
+       background-color: #E6ECF0;
+   }
+}
+
+// rightsection
 .card{
     background-color: #F5F8FA;
     .card-header{

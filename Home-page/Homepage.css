@@ -51,6 +51,41 @@
   border-radius: 30px;
   background-color: #E6ECF0; }
 
+.tweet .itachi {
+  font-size: 13px; }
+.tweet .higa {
+  font-weight: 700;
+  font-size: 15px; }
+.tweet .twitpix {
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.tweet:hover {
+  background-color: #F5F8FA; }
+
+.imago {
+  width: 50px;
+  height: 50px; }
+
+.bodicn:hover .icno {
+  background-color: #d8d8e4;
+  color: blue; }
+.bodicn:hover .spn1 {
+  color: blue; }
+.bodicn:hover .icnu {
+  background-color: #E6ECF0;
+  color: green; }
+.bodicn:hover .spn2 {
+  color: green; }
+.bodicn:hover .icni {
+  background-color: #E6ECF0;
+  color: red; }
+.bodicn:hover .spn3 {
+  color: red; }
+.bodicn:hover .icnn {
+  color: #6a6aad;
+  background-color: #E6ECF0; }
+
 .card {
   background-color: #F5F8FA; }
   .card .card-header {
