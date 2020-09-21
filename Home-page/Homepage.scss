@@ -21,10 +21,14 @@ $lightext:13px;
         .twt{
             color: $maincolor;
             font-size: 30px;
+            text-decoration: none;
         }
        
     }
     .sdnav:hover{
+        .twt{
+            background-color: $sidenavhovercolor;
+        }
         .kik{
             background-color: $sidenavhovercolor;
             color: $maincolor;

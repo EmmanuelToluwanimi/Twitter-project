@@ -1,0 +1,57 @@
+// colors
+$maincolor:#1DA1F2;
+$sidenavhovercolor:#E8F5FE;
+$sdnavbtncolor:#1A91DA;
+$mainbtncolor:#8ED0F9;
+$ltextcolor:#9AA5AF;
+
+// fontsize
+$header:19px;
+$normaltxt:15px;
+$lightext:13px;
+
+// sidenav
+.sidenav{
+    color: black;
+    font-size: $header;
+    height: 100%;
+    .sdnav{
+        font-weight: 500;
+        margin-left: 10%;
+        .twt{
+            color: $maincolor;
+            font-size: 30px;
+        }
+       
+    }
+    .sdnav:hover{
+        .twt{
+            background-color: $sidenavhovercolor;
+        }
+        .kik{
+            background-color: $sidenavhovercolor;
+            color: $maincolor;
+        }
+    }
+
+    .kik{
+        color: black;
+        text-decoration: none;
+        border-radius: 30px;
+    }
+
+    i{
+        font-size: 25px;
+    }
+    #finh{
+        background-color:$sdnavbtncolor;
+        text-align: center;
+        border-radius: 30px;
+        font-size: $normaltxt;
+        margin-bottom: 100px;
+    }
+    #sdbtn{
+        color: white;
+        border-radius: 0px;
+    }
+}
