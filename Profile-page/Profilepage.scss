@@ -206,3 +206,70 @@ $lightext:13px;
 .txt2{
     font-size: $lightext;
 }
+
+// rightsection
+.rytinput{
+    border-radius: 30px;
+    background-color: #E6ECF0;
+}
+.gallery{
+    img{
+        width: 32.5%;
+        height: 15vh;
+    }
+    .img1{
+        border-radius: 20px 0px 0px 0px;
+    }
+    .img2{
+        border-radius: 0px 20px 0px 0px;
+    }
+    .img3{
+        border-radius: 0px 0px 0px 20px;
+    }
+    .img4{
+        border-radius: 0px 0px 20px 0px;
+    }
+}
+.card{
+    background-color: #F5F8FA;
+    .card-header{
+        font-size: $header;
+        background-color: #F5F8FA;
+        .headertitle{
+            font-weight: 700;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    .card-body{
+        .fila{
+            text-decoration: none;
+            color: black;
+        }
+        .sasuke{
+            .itachi{
+                font-size: $lightext;
+            }
+            .higa{
+                font-weight: 700;
+                font-size: $normaltxt;
+            }
+        }
+        .sasuke:hover{
+            background-color: #E6ECF0;
+        }
+    }
+    .imago{
+        width: 50px;
+        height: 50px;
+    }
+    .bito{
+        border-radius: 30px;
+        border-color: $maincolor;
+        color: $maincolor;
+    }
+}
+.bado{
+    font-size: $lightext;
+}
