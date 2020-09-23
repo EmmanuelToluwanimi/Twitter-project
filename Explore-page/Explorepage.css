@@ -33,71 +33,8 @@
     color: white;
     border-radius: 0px; }
 
-#star {
-  width: 25px;
-  height: 25px; }
-
-.bgg {
-  font-size: 19px;
-  font-weight: 700; }
-
-#prfp {
-  width: 60px;
-  height: 60px; }
-
-#tpicn {
-  font-size: 23px; }
-
-#twtbtn {
-  background-color: #8ED0F9;
-  border-radius: 30px;
-  color: white; }
-
 .rytinput {
   border-radius: 30px;
-  background-color: #E6ECF0; }
-
-.tweet .itachi {
-  font-size: 13px; }
-.tweet .higa {
-  font-weight: 700;
-  font-size: 15px; }
-.tweet .twitpix {
-  border-radius: 30px;
-  height: 50vh; }
-  .tweet .twitpix .imgr {
-    border-radius: 30px; }
-  .tweet .twitpix .imge {
-    border-radius: 30px 0px 0px 30px; }
-  .tweet .twitpix .imgu {
-    border-radius: 0px 30px 30px 0px; }
-.tweet #twu {
-  border-radius: 15px; }
-
-.tweet:hover {
-  background-color: #F5F8FA; }
-
-.imago {
-  width: 50px;
-  height: 50px; }
-
-.bodicn:hover .icno {
-  background-color: #d8d8e4;
-  color: blue; }
-.bodicn:hover .spn1 {
-  color: blue; }
-.bodicn:hover .icnu {
-  background-color: #E6ECF0;
-  color: green; }
-.bodicn:hover .spn2 {
-  color: green; }
-.bodicn:hover .icni {
-  background-color: #E6ECF0;
-  color: red; }
-.bodicn:hover .spn3 {
-  color: red; }
-.bodicn:hover .icnn {
-  color: #6a6aad;
   background-color: #E6ECF0; }
 
 .card {
@@ -130,4 +67,4 @@
 .bado {
   font-size: 13px; }
 
-/*# sourceMappingURL=Homepage.css.map */
+/*# sourceMappingURL=Explorepage.css.map */

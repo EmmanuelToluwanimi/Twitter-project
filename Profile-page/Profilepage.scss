@@ -40,6 +40,10 @@ $lightext:13px;
         text-decoration: none;
         border-radius: 30px;
     }
+    .active{
+        background-color: $sidenavhovercolor;
+        border-radius: 30px;
+    }
 
     i{
         font-size: 25px;

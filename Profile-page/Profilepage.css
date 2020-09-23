@@ -18,6 +18,9 @@
     color: black;
     text-decoration: none;
     border-radius: 30px; }
+  .sidenav .active {
+    background-color: #E8F5FE;
+    border-radius: 30px; }
   .sidenav i {
     font-size: 25px; }
   .sidenav #finh {
