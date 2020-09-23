@@ -33,8 +33,99 @@
     color: white;
     border-radius: 0px; }
 
-.rytinput {
+.nav-bar .rytinput {
   border-radius: 30px;
+  background-color: #E6ECF0; }
+.nav-bar .navicn {
+  color: #1DA1F2;
+  font-size: 20px;
+  text-decoration: none; }
+.nav-bar .navicn:hover {
+  background-color: #E8F5FE; }
+
+.image {
+  background: radial-gradient(rgba(73, 73, 116, 0.3), rgba(0, 0, 0, 0.7)), url("../Materials/47100075-call-of-duty-advanced-warfare-wallpaper.jpg");
+  background-size: 100%;
+  height: 50vh;
+  color: white; }
+
+.txt1 {
+  font-weight: 700;
+  font-size: 19px; }
+
+.txt2 {
+  font-size: 13px; }
+
+.trends .card-header {
+  font-size: 19px; }
+  .trends .card-header .headertitle {
+    font-weight: 700; }
+  .trends .card-header a {
+    text-decoration: none; }
+.trends .card-body .fila {
+  text-decoration: none;
+  color: black; }
+.trends .card-body .sasuke .itachi {
+  font-size: 13px; }
+.trends .card-body .sasuke .higa {
+  font-weight: 700;
+  font-size: 15px; }
+.trends .card-body .sasuke:hover {
+  background-color: #E6ECF0; }
+.trends .imago {
+  width: 50px;
+  height: 50px; }
+.trends .bito {
+  border-radius: 30px;
+  border-color: #1DA1F2;
+  color: #1DA1F2; }
+
+.davtrend .htrend {
+  font-weight: 700; }
+.davtrend .ftrend a {
+  text-decoration: none; }
+
+.tweet .itachi {
+  font-size: 13px; }
+.tweet .higa {
+  font-weight: 700;
+  font-size: 15px; }
+.tweet .twitpix {
+  border-radius: 30px;
+  height: 50vh; }
+  .tweet .twitpix .imgr {
+    border-radius: 30px; }
+  .tweet .twitpix .imge {
+    border-radius: 30px 0px 0px 30px; }
+  .tweet .twitpix .imgu {
+    border-radius: 0px 30px 30px 0px; }
+.tweet #twu {
+  border-radius: 15px; }
+
+.tweet:hover {
+  background-color: #F5F8FA; }
+
+.imago {
+  width: 50px;
+  height: 50px; }
+
+.bodicn:hover .icno {
+  background-color: #d8d8e4;
+  color: blue; }
+.bodicn:hover .spn1 {
+  color: blue; }
+.bodicn:hover .icnu {
+  background-color: #E6ECF0;
+  color: green; }
+.bodicn:hover .spn2 {
+  color: green; }
+.bodicn:hover .icni {
+  background-color: #E6ECF0;
+  color: red; }
+.bodicn:hover .spn3 {
+  color: red; }
+.bodicn:hover .icnn {
+  color: #6a6aad;
   background-color: #E6ECF0; }
 
 .card {
