@@ -53,11 +53,34 @@ $lightext:13px;
         text-align: center;
         border-radius: 30px;
         font-size: $normaltxt;
-        margin-bottom: 100px;
+    
     }
     #sdbtn{
         color: white;
         border-radius: 0px;
+    }
+    .logit{
+        text-decoration: none;
+        color: black;
+    }
+    .logdiv{
+        border-radius: 30px;
+        margin-left: 10%;
+        
+        .loginphoto{
+            width: 3vw;
+            height: 7vh;
+        }
+        .itachi{
+            font-size: $lightext;
+        }
+        .higa{
+            font-weight: 700;
+            font-size: $normaltxt;
+        }
+    }
+    .logdiv:hover{
+        background-color: $sidenavhovercolor;
     }
 }
 
@@ -92,9 +115,12 @@ $lightext:13px;
     font-size: $lightext;
 }
 .trends{
+    
+    border: 1px solid #E6ECF0;
+    border-top: 10px solid #E6ECF0;
     .card-header{
         font-size: $header;
-    
+        background-color: #fff;
         .headertitle{
             font-weight: 700;
         }
