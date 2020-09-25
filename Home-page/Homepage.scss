@@ -15,6 +15,10 @@ $lightext:13px;
     color: black;
     font-size: $header;
     height: 100%;
+    position: sticky;
+    overflow-y: scroll;
+    top: 0px;
+
     .sdnav{
         font-weight: 500;
         margin-left: 10%;
@@ -85,6 +89,15 @@ $lightext:13px;
 }
 
 // mainbody
+.mainbody{
+    
+    // left: 26%;
+}
+.main-nav{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
 #star{
     width: 25px;
     height: 25px;
@@ -178,9 +191,23 @@ $lightext:13px;
 }
 
 // rightsection
+.rightsect{
+    height: 100%;
+    position: sticky;
+    top: 0px;
+    // overflow: hidden;
+}
+.nav-bar{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
 .card{
     background-color: #F5F8FA;
+
     .card-header{
+    
         font-size: $header;
         background-color: #F5F8FA;
         .headertitle{

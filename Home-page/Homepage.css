@@ -1,7 +1,10 @@
 .sidenav {
   color: black;
   font-size: 19px;
-  height: 100%; }
+  height: 100%;
+  position: sticky;
+  overflow-y: scroll;
+  top: 0px; }
   .sidenav .sdnav {
     font-weight: 500;
     margin-left: 10%; }
@@ -47,6 +50,11 @@
       font-size: 15px; }
   .sidenav .logdiv:hover {
     background-color: #E8F5FE; }
+
+.main-nav {
+  background-color: white;
+  position: sticky;
+  top: 0px; }
 
 #star {
   width: 25px;
@@ -121,6 +129,17 @@
 .bodicn:hover .icnn {
   color: #6a6aad;
   background-color: #E6ECF0; }
+
+.rightsect {
+  height: 100%;
+  position: sticky;
+  top: 0px; }
+
+.nav-bar {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 1; }
 
 .card {
   background-color: #F5F8FA; }
