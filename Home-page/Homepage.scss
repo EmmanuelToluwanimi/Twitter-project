@@ -66,10 +66,14 @@ $lightext:13px;
     .logit{
         text-decoration: none;
         color: black;
+        .loginphotoxs{
+        margin-left: 20%;
+    }
     }
     .logdiv{
         border-radius: 30px;
         margin-left: 10%;
+        
         
         .loginphoto{
             width: 3vw;
@@ -86,13 +90,21 @@ $lightext:13px;
     .logdiv:hover{
         background-color: $sidenavhovercolor;
     }
+    
+}
+#sidenav1{
+    display: none;
+}
+
+#sidenav2{
+    display: none;
 }
 
 // mainbody
-.mainbody{
+// .mainbody{
     
-    // left: 26%;
-}
+   
+// }
 .main-nav{
     background-color: white;
     position: sticky;
@@ -189,12 +201,27 @@ $lightext:13px;
        background-color: #E6ECF0;
    }
 }
+.bottomnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    display: none;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+}
 
 // rightsection
 .rightsect{
     height: 100%;
     position: sticky;
     top: 0px;
+    margin-left: auto;
     // overflow: hidden;
 }
 .nav-bar{
@@ -248,3 +275,85 @@ $lightext:13px;
 .bado{
     font-size: $lightext;
 }
+
+
+// media-query
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mainbody {background: red;
+        // width: 100%;
+        // padding: 0px;
+        // margin: 0px;
+        .bottomnav{
+            display: flex;
+        }
+    }
+    .sidenav{
+        display: none;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .mainbody {background: green;}
+    #sidenav1{
+        display: none;
+    }
+    #sidenav2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        width: 100%;
+        .sdnav{
+            font-weight: 500;
+            width: 100%;
+            // margin-left: 10%;
+            .twt{
+                color: $maincolor;
+                font-size: 30px;
+                text-decoration: none;
+            }
+           
+        }
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .mainbody {background: blue;}
+    #sidenav1{
+        display: none;
+    }
+    #sidenav2{
+        #sidenav2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .sdnav{
+                font-weight: 500;
+                width: 100%;
+                // margin-left: 10%;
+                .twt{
+                    color: $maincolor;
+                    font-size: 30px;
+                    text-decoration: none;
+                }
+               
+            }
+        }
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .mainbody {background: orange;}
+    #sidenav1{
+        display: block;
+    }
+    #sidenav2{
+        display: none;
+    }
+  } 

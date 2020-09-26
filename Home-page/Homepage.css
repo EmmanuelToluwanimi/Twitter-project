@@ -37,6 +37,8 @@
   .sidenav .logit {
     text-decoration: none;
     color: black; }
+    .sidenav .logit .loginphotoxs {
+      margin-left: 20%; }
   .sidenav .logdiv {
     border-radius: 30px;
     margin-left: 10%; }
@@ -50,6 +52,12 @@
       font-size: 15px; }
   .sidenav .logdiv:hover {
     background-color: #E8F5FE; }
+
+#sidenav1 {
+  display: none; }
+
+#sidenav2 {
+  display: none; }
 
 .main-nav {
   background-color: white;
@@ -130,10 +138,24 @@
   color: #6a6aad;
   background-color: #E6ECF0; }
 
+.bottomnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  bottom: 0px;
+  background-color: white;
+  display: none; }
+  .bottomnav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; }
+
 .rightsect {
   height: 100%;
   position: sticky;
-  top: 0px; }
+  top: 0px;
+  margin-left: auto; }
 
 .nav-bar {
   background-color: white;
@@ -170,5 +192,67 @@
 
 .bado {
   font-size: 13px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mainbody {
+    background: red; }
+    .mainbody .bottomnav {
+      display: flex; }
+
+  .sidenav {
+    display: none; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .mainbody {
+    background: green; }
+
+  #sidenav1 {
+    display: none; }
+
+  #sidenav2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100%; }
+    #sidenav2 .sdnav {
+      font-weight: 500;
+      width: 100%; }
+      #sidenav2 .sdnav .twt {
+        color: #1DA1F2;
+        font-size: 30px;
+        text-decoration: none; } }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mainbody {
+    background: blue; }
+
+  #sidenav1 {
+    display: none; }
+
+  #sidenav2 #sidenav2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    #sidenav2 #sidenav2 .sdnav {
+      font-weight: 500;
+      width: 100%; }
+      #sidenav2 #sidenav2 .sdnav .twt {
+        color: #1DA1F2;
+        font-size: 30px;
+        text-decoration: none; } }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mainbody {
+    background: orange; }
+
+  #sidenav1 {
+    display: block; }
+
+  #sidenav2 {
+    display: none; } }
 
 /*# sourceMappingURL=Homepage.css.map */
