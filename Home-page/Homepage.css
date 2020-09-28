@@ -58,6 +58,8 @@
 
 #sidenav2 {
   display: none; }
+  #sidenav2 .sdnav {
+    text-align: center; }
 
 .main-nav {
   background-color: white;
@@ -161,7 +163,8 @@
   background-color: white;
   position: fixed;
   top: 0px;
-  z-index: 1; }
+  z-index: 1;
+  width: 25%; }
 
 .card {
   background-color: #F5F8FA; }
@@ -201,6 +204,9 @@
       display: flex; }
 
   .sidenav {
+    display: none; }
+
+  .rightsect {
     display: none; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -243,7 +249,13 @@
       #sidenav2 #sidenav2 .sdnav .twt {
         color: #1DA1F2;
         font-size: 30px;
-        text-decoration: none; } }
+        text-decoration: none; }
+
+  .rightsect {
+    display: none; }
+
+  .nav-bar {
+    width: 30%; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .mainbody {
@@ -253,6 +265,11 @@
     display: block; }
 
   #sidenav2 {
-    display: none; } }
+    display: none; }
+
+  .rightsect {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
 /*# sourceMappingURL=Homepage.css.map */

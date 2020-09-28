@@ -98,6 +98,9 @@ $lightext:13px;
 
 #sidenav2{
     display: none;
+    .sdnav{
+        text-align: center;
+    }
 }
 
 // mainbody
@@ -229,6 +232,7 @@ $lightext:13px;
     position: fixed;
     top: 0px;
     z-index: 1;
+    width: 25%;
 }
 .card{
     background-color: #F5F8FA;
@@ -291,6 +295,9 @@ $lightext:13px;
     .sidenav{
         display: none;
     }
+    .rightsect{
+        display: none;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -345,6 +352,14 @@ $lightext:13px;
             }
         }
     }
+    .rightsect{
+        display: none;
+    }
+    .nav-bar{
+        width: 30%;
+    }
+   
+
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -356,4 +371,10 @@ $lightext:13px;
     #sidenav2{
         display: none;
     }
+    .rightsect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
   } 
