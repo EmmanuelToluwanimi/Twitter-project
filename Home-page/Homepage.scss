@@ -112,6 +112,7 @@ $lightext:13px;
     background-color: white;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 #star{
     width: 25px;
@@ -227,12 +228,11 @@ $lightext:13px;
     margin-left: auto;
     // overflow: hidden;
 }
-.nav-bar{
+.nav-input{
     background-color: white;
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 1;
-    width: 25%;
 }
 .card{
     background-color: #F5F8FA;
@@ -372,9 +372,8 @@ $lightext:13px;
         display: none;
     }
     .rightsect{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
+        
     }
    
   } 

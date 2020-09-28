@@ -15,6 +15,9 @@ $lightext:13px;
     color: black;
     font-size: $header;
     height: 100%;
+    position: sticky;
+    overflow-y: scroll;
+    top: 0px;
     .sdnav{
         font-weight: 500;
         margin-left: 10%;
@@ -83,9 +86,23 @@ $lightext:13px;
         background-color: $sidenavhovercolor;
     }
 }
+#sidenav1{
+    display: none;
+}
+
+#sidenav2{
+    display: none;
+    .sdnav{
+        text-align: center;
+    }
+}
 
 // mainbody
 .nav-bar{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
     .rytinput{
         border-radius: 30px;
         background-color: #E6ECF0;
@@ -226,8 +243,29 @@ $lightext:13px;
        background-color: #E6ECF0;
    }
 }
+.bottomnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    display: none;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+}
 
 // rightsect
+.rightsect{
+    height: 100%;
+    position: sticky;
+    top: 0px;
+    margin-left: auto;
+    // overflow: hidden;
+}
 .card{
     background-color: #F5F8FA;
     .card-header{
@@ -271,3 +309,48 @@ $lightext:13px;
 .bado{
     font-size: $lightext;
 }
+
+
+// media-query
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mainbody {background: red;
+        .bottomnav{
+            display: flex;
+        }
+    }
+    .rightsect{
+        display: none;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .mainbody {background: green;}
+    #sidenav2{
+        display: block;
+    }
+    .rightsect{
+        display: none;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .mainbody {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .mainbody {background: orange;}
+    #sidenav1{
+        display: block;
+    }
+   
+    #sidenav2{
+        display: none;
+    }
+    .rightsect{
+        display: block;
+    }
+  } 
