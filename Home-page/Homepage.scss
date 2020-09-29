@@ -284,7 +284,7 @@ $lightext:13px;
 // media-query
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .mainbody {background: red;
+    .mainbody {background:white ;
         // width: 100%;
         // padding: 0px;
         // margin: 0px;
@@ -302,7 +302,7 @@ $lightext:13px;
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    .mainbody {background: green;}
+    .mainbody {background: white;}
     #sidenav1{
         display: none;
     }
@@ -329,7 +329,7 @@ $lightext:13px;
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    .mainbody {background: blue;}
+    .mainbody {background: white;}
     #sidenav1{
         display: none;
     }
@@ -364,7 +364,7 @@ $lightext:13px;
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .mainbody {background: orange;}
+    .mainbody {background: white;}
     #sidenav1{
         display: block;
     }

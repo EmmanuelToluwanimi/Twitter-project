@@ -215,7 +215,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .mainbody {
-    background: red; }
+    background: white; }
     .mainbody .bottomnav {
       display: flex; }
 
@@ -224,7 +224,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .mainbody {
-    background: green; }
+    background: white; }
 
   #sidenav2 {
     display: block; }
@@ -234,11 +234,11 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .mainbody {
-    background: blue; } }
+    background: white; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .mainbody {
-    background: orange; }
+    background: white; }
 
   #sidenav1 {
     display: block; }
